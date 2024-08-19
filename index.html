@@ -50,7 +50,7 @@
     <h1>Contract of Employment</h1>
     <div class="section">
         <h2>Between</h2>
-        <p><input type="text" class="input-field" id="employer" placeholder="Employer's Name"> LIMITED</p>
+        <p>RAH Real Estate Development Company International Limited</p>
         <p>And</p>
         <p><input type="text" class="input-field" id="employeeDetails" placeholder="Employee Details"></p>
     </div>
@@ -66,7 +66,7 @@
     </div>
     <div class="section">
         <p>THIS AGREEMENT is made this <input type="text" class="input-field" id="day" placeholder="Day"> day of <input type="text" class="input-field" id="month" placeholder="Month">, 2024.</p>
-        <p>BETWEEN <input type="text" class="input-field" id="employer" placeholder="Employer's Name"> LIMITED, a company incorporated under the Laws of the Federal Republic of Nigeria, whose office address is at No. <input type="text" class="input-field" id="officeAddress" placeholder="Office Address">, Port Harcourt, in the Rivers State of Nigeria (hereinafter referred to as “the Employer” which expression shall where the context so admits include its representatives, successors-in-title and assigns) OF THE FIRST PART</p>
+        <p>BETWEEN RAH Real Estate Development Company International Limited, a company incorporated under the Laws of the Federal Republic of Nigeria, whose office address is at No. <input type="text" class="input-field" id="officeAddress" placeholder="Office Address">, Port Harcourt, in the Rivers State of Nigeria (hereinafter referred to as “the Employer” which expression shall where the context so admits include its representatives, successors-in-title and assigns) OF THE FIRST PART</p>
         <p>AND</p>
         <p><input type="text" class="input-field" id="employeeDetails" placeholder="Employee Details"> of <input type="text" class="input-field" id="employeeAddress" placeholder="Employee Address">, Port Harcourt, Rivers State of Nigeria (hereinafter called “the Employee” which expression shall where the context so admits include his representatives) OF THE SECOND PART.</p>
     </div>
@@ -243,7 +243,7 @@ function addRightAlignedText(text, fontSize = textFontSize) {
   // Usage in your PDF generation function
 addCenteredText("CONTRACT OF EMPLOYMENT", 30);
 addCenteredText("BETWEEN", 30);
-addCenteredText(`${document.getElementById('employer').value} LIMITED`, 25);
+addCenteredText(`RAH Real Estate Development Company International Limited`, 20);
 addCenteredText("And", 30);
 addCenteredText(`${document.getElementById('employeeDetails').value}`, 30);
 
@@ -259,7 +259,7 @@ addRightAlignedText("09052337583                                            ", t
 addRightAlignedText("Email: thrivelegalconsultph@gmail.com", textFontSize);
 
             addText(`THIS AGREEMENT is made this ${document.getElementById('day').value} day of ${document.getElementById('month').value}, 2024.`, textFontSize);
-            addText(`BETWEEN ${document.getElementById('employer').value} LIMITED, a company incorporated under the Laws of the Federal Republic of Nigeria, whose office address is at No. ${document.getElementById('officeAddress').value}, Port Harcourt, in the Rivers State of Nigeria (hereinafter referred to as “the Employer” which expression shall where the context so admits include its representatives, successors-in-title and assigns) OF THE FIRST PART`, textFontSize);
+            addText(`BETWEEN RAH Real Estate Development Company International Limited, a company incorporated under the Laws of the Federal Republic of Nigeria, whose office address is at No. ${document.getElementById('officeAddress').value}, Port Harcourt, in the Rivers State of Nigeria (hereinafter referred to as “the Employer” which expression shall where the context so admits include its representatives, successors-in-title and assigns) OF THE FIRST PART`, textFontSize);
             addText("AND", textFontSize);
             addText(`${document.getElementById('employeeDetails').value} of ${document.getElementById('employeeAddress').value}, Port Harcourt, Rivers State of Nigeria (hereinafter called “the Employee” which expression shall where the context so admits include his representatives) OF THE SECOND PART.`, textFontSize);
 
